@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'arial';
+  
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+
+.logo {
+    font-size: 24px ;
+    font-weight: bold;
+}
+
+.logo .red {
+    color: red;
+}
+
+.logo .black {
+    color: black;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links li {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li a {
+    margin-right: 68px;
+}
+
+.nav-links .home {
+    font-weight: bold;
+}
+
+.auth-links {
+    display: flex;
+    align-items: center;
+
+}
+
+ a {
+    margin-left : 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.signup {
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-section {
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.main-heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #1c2c5e;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.subheading {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.5;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ 
+}
+
+.btn-get-started {
+    background-color: #ff6600;
+    color: white;
+    padding: 19px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.btn-learn-more {
+    background-color: transparent;
+    color: #1c2c5e;
+    padding: 15px 30px;
+    border: 2px solid #1c2c5e;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.btn-learn-more: :before {
+    content: '/25b6'; 
+    margin-right:10px;
+    font-size: 14px;
+    color: #f4a72c; 
+}
+
+.hero-section-texte {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    
+   
+    
+}
+
+
+
+
+.service-section {
+    text-align: center;
+    padding: 2px 0;
+    font-family: 'arial';
+    font-weight: 700;
+}
+
+.service-heading {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #888;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Arial',
+}
+
+.service-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.service{
+    display: flex;
+    align-items: flex-start;
+    padding: 0 55px; 
+}
+
+.service-box {
+    background-color:white;
+    border-radius: 20px;
+    padding: 30px;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgb(209,209,209,255);
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px 0 60px;
+    align-items: center;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+
+.service-box h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.service-box p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    padding-top: 15px;
+}
+
+.service-box .icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 15px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e67e22;
+}
+
+
+
+
+
+
+
+
+
+
+
+.service-section2 {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.write1 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #1e0e62;
+    margin-bottom: 20px;
+    display: flex;
+    
+    
+}
+
+.write2 {
+    font-size: 18px;
+    color: rgba(161,161,176,255);
+    margin-bottom: 40px;
+    line-height: 1.5;
+    
+
+}
+
+.buttons1 {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+
+.btn-explorer {
+    background-color:transparent;
+    color: #1e0e62;
+    padding: 19px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid#ebeaed
+    
+    
+}
+
+
+.bloc {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+ 
+}
+
+.image {
+
+}
