@@ -82,7 +82,7 @@ body {
 
 
 .hero-section {
-    text-align: center;
+    
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -92,14 +92,14 @@ body {
 .main-heading {
     font-size: 48px;
     font-weight: bold;
-    color: #1c2c5e;
+    color: #0b1b35;
     margin-bottom: 20px;
     display: flex;
 }
 
 .subheading {
     font-size: 18px;
-    color: #555;
+    color:#000000;
     margin-bottom: 40px;
     line-height: 1.5;
 
@@ -107,7 +107,6 @@ body {
 
 .buttons {
     display: flex;
-    justify-content: center;
     gap: 20px;
  
 }
@@ -154,6 +153,10 @@ body {
 }
 
 
+
+.our{
+color: #0b1b35;
+}
 
 
 .service-section {
@@ -259,7 +262,7 @@ button:hover {
 
 
 .service-section2 {
-    padding: 50px;
+    padding: 120px;
     display: flex;
     justify-content: center;
   
@@ -283,6 +286,10 @@ button:hover {
     
 
 }
+
+.image {
+    padding-left: 150px;
+  }
 
 .buttons1 {
     display: flex;
@@ -310,9 +317,300 @@ button:hover {
     display: flex;
     flex-direction: column;
     max-width: 600px;
- 
-}
-
-.image {
+    margin-top: 18px;
 
 }
+
+
+
+
+
+
+
+
+.clients{
+    color: #0b1b35;
+    }
+    
+  
+    
+    .service-client {
+        font-size: 27px;
+        text-align: center;
+        padding: 2px 0;
+        font-family: 'arial';
+        font-weight: 700;
+    }
+    
+    .heading-client {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        color: #888;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-family: 'Arial',
+    }
+    
+
+    .rahyan-texte {
+        font-size: 18px;
+        font-weight: 140;
+        color:#000000;
+        margin-bottom: 40px;
+        line-height: 1.5;
+    
+    }
+
+    
+
+    .rahyan-name {
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        color: #888;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-family: 'Arial',
+    }
+
+    .kayley-texte {
+        font-weight: 140;
+        font-size: 18px;
+        color:#000000;
+        margin-bottom: 40px;
+        line-height: 1.5;
+    
+
+    }
+
+    .kayley-name {
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        color: #888;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-family: 'Arial',
+    }
+
+    .gene-texte {
+        font-weight: 400;
+        font-size: 18px;
+        color:#000000;
+        margin-bottom: 40px;
+        line-height: 1.5;
+    }
+
+    .gene-name {
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        color: #888;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-family: 'Arial',
+    }
+
+    .allan-texte {
+        font-weight: 140;
+        font-size: 18px;
+        color:#000000;
+        margin-bottom: 40px;
+        line-height: 1.5;
+    }
+
+    .allan-name {
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        color: #888;
+        margin-bottom: px;
+        text-transform: uppercase;
+        font-family: 'Arial',
+    }
+
+    .personnel {
+        gap: -500px;
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         padding: 50px;
+         
+    }
+
+  .Kayley{
+
+    margin-left: 50px;
+  }
+  
+  .Allan{
+
+    margin-left: 50px;
+  }
+
+  .Gene{
+
+    margin-right: -300px;
+  }
+
+  .Rayhan{
+
+    margin-right: -300px;
+  }
+
+
+    .image-personnel {
+        position: relative;
+        right: 200px;
+        top: 80px;
+    }
+
+    .go{
+        font-size: 18px;
+        font-weight: 200;
+        position: relative;
+        right: 125px;
+        bottom: 40px;
+
+    }
+
+    .service-client {
+        padding: 25px;
+       display: center;
+    }
+
+
+ .service-team {
+    font-size: 27px;
+    text-align: center;
+    padding: 2px 0;
+    font-family: 'arial';
+    font-weight: 700;
+ }
+
+    .heading-team {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        color: #888;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-family: 'Arial'; 
+        text-align: center;
+    }
+    
+
+    .meet {
+        color: #0b1b35;
+    
+    }
+
+
+
+    .team {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .vanessa {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 20px;
+        width: 200px;
+    
+        text-align: center
+    }
+  
+    .vanessa-name  {
+        font-weight: 400;
+        font-size: 18px;
+        color:#000000;
+        margin-bottom: 40px;
+        line-height: 1.5;
+    }
+
+
+
+    .vanessa h6 {
+        font-size: 14px;
+        color: #888;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+.mason  {
+    background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 20px;
+        width: 200px;
+     
+        text-align: center
+    }
+
+.mason-name {
+    font-weight: 400;
+    font-size: 18px;
+    color:#000000;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.mason h6 {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.irea {
+    background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 20px;
+        width: 200px;
+       
+        text-align: center
+    }
+
+    .irea-name {
+        font-weight: 400;
+        font-size: 18px;
+        color:#000000;
+        margin-bottom: 40px;
+        line-height: 1.5;
+    }
+
+    .irea h6 {
+        font-size: 14px;
+        color: #888;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .team-images {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .social-icons a img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    
