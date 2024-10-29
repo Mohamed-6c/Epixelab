@@ -135,12 +135,12 @@ body {
     align-items: center;
 }
 
-.btn-learn-more: :before {
-    content: '/25b6'; 
-    margin-right:10px;
-    font-size: 14px;
-    color: #f4a72c; 
-}
+.btn-learn-more:before {
+    content : '/25b6'; 
+    margin-right: 10px;
+    font-size : 14px;
+    color : #f4a72c; 
+     }
 
 .hero-section-texte {
     margin-top: 5rem;
@@ -511,21 +511,22 @@ button:hover {
         display: flex;
         justify-content: center;
         gap: 30px;
+        padding: 80px;
     }
 
-    .vanessa {
+    .equipe {
         background-color: #fff;
         border: 1px solid #ddd;
         border-radius: 10px;
-        padding: 20px;
-        width: 200px;
-    
-        text-align: center
+        padding: 80px;
+        width: 400px;
+        text-align: center;
     }
   
     .vanessa-name  {
+        padding-top: 50px;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 30px;
         color:#000000;
         margin-bottom: 40px;
         line-height: 1.5;
@@ -533,7 +534,8 @@ button:hover {
 
 
 
-    .vanessa h6 {
+    .vanessa-post {
+        padding-top: 15px;
         font-size: 14px;
         color: #888;
         margin: 0;
@@ -541,25 +543,17 @@ button:hover {
         letter-spacing: 1px;
     }
 
-.mason  {
-    background-color: #fff;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        padding: 20px;
-        width: 200px;
-     
-        text-align: center
-    }
-
 .mason-name {
+    padding-top: 50px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 30px;
     color:#000000;
     margin-bottom: 40px;
     line-height: 1.5;
 }
 
-.mason h6 {
+.mason-post {
+    padding-top: 15px;
     font-size: 14px;
     color: #888;
     margin: 0;
@@ -567,25 +561,18 @@ button:hover {
     letter-spacing: 1px;
 }
 
-.irea {
-    background-color: #fff;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        padding: 20px;
-        width: 200px;
-       
-        text-align: center
-    }
 
-    .irea-name {
+.irea-name {
+        padding-top: 40px;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 30px;
         color:#000000;
         margin-bottom: 40px;
         line-height: 1.5;
     }
 
-    .irea h6 {
+    .irea-post {
+        padding-top: 15px;
         font-size: 14px;
         color: #888;
         margin: 0;
@@ -604,13 +591,157 @@ button:hover {
     .social-icons {
         display: flex;
         justify-content: center;
-        gap: 10px;
+        gap: 100px;
         margin-top: 15px;
+        padding-top: 80px;
+
     }
 
     .social-icons a img {
         width: 20px;
         height: 20px;
     }
+
+
+
+.subscribe {
+    font-size: 40px;
+    text-align: center;
+    padding: 2px 0;
+    font-family: 'arial';
+    font-weight: 700;
+}
+
+    .heading-letter {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        color: #888;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-family: 'Arial'; 
+        text-align: center;
+
+    }
+
+    .title4 {
+        color: #0b1b35;
+        text-align: center;
+    }
+
+  .lettre {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 80px;
+}
+
+  .section-letter {
     
+  }
+
+  .button-lettre {
+    margin-top: 60px;
+    width: 700px;
+    height: 50px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+  }
+
+
+  .email-tape input[type="email"] {
+    width: 700px;
+    height: 77px;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: 2px solid #ebeaed;
+    border-radius: 30px;
+    outline: none;
+    box-shadow: 0 45px 45px rgba(0, 0, 0, 0.2);
+  }
+
+
+.email-tape input[type="email"]::placeholder {
+    color: #000000;
+}
+
+.txt {
+    margin-bottom: 75px;
+    font-size: 18px;
+}
+
+.email {
+    margin-bottom: 100px;
+}
+
+
+footer {
+    background-color: white;
+    color: #444;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.start {
+    font-size: 18px;
+    color: rgba(161,161,176,255);
+    margin-bottom: 40px;
+    line-height: 1.5;
+    padding-left: 15px;
+    position: relative;
+    right: 200px;
+    margin-top: 50px;
+}
+
+.divider {
+    margin-top: 25px;
+}
+
+.hard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+
+.foot-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: #1E0E62;
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+.foot-links a {
+    padding: 0px 30px;
+}
+
+.logo1 {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 23px;
     
+}
+
+.txt2020txt {
+    font-size: 13px;
+    font-weight: 400px;
+    color: #1E0E62;
+    position: relative;
+    top: 32px;
+    right: 300px;
+}
+
+
+
