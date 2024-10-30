@@ -64,7 +64,7 @@ body {
 }
 
 .signup {
-    background-color: red;
+    background-color: #ff6600;
     color: white;
     padding: 5px 15px;
     border-radius: 5px;
@@ -72,17 +72,13 @@ body {
 
 
 
-
-
-
-
-
-
-
-
+.boug-image {
+    position: relative;
+    bottom: 70px;
+}
 
 .hero-section {
-    
+    text-align: start;
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -90,7 +86,7 @@ body {
 }
 
 .main-heading {
-    font-size: 48px;
+    font-size: 70px;
     font-weight: bold;
     color: #0b1b35;
     margin-bottom: 20px;
@@ -102,45 +98,49 @@ body {
     color:#000000;
     margin-bottom: 40px;
     line-height: 1.5;
+    margin-top: 25px;
 
 }
 
 .buttons {
+    text-align: start;
     display: flex;
     gap: 20px;
+    margin-top: 25px;
  
 }
 
 .btn-get-started {
+    height: 49px;
+    width: 162px;
     background-color: #ff6600;
     color: white;
-    padding: 19px 30px;
-    border-radius: 5px;
+    align-items: center;
+    border-radius: 12px;
     text-decoration: none;
     font-size: 16px;
-    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    
     
 }
 
 .btn-learn-more {
-    background-color: transparent;
-    color: #1c2c5e;
+    color: #000000;
     padding: 15px 30px;
-    border: 2px solid #1c2c5e;
-    border-radius: 5px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    display: flex;
-    align-items: center;
+    position: relative;
+    right: 35px;
 }
 
-.btn-learn-more:before {
-    content : '/25b6'; 
-    margin-right: 10px;
-    font-size : 14px;
-    color : #f4a72c; 
-     }
+.deplacer {
+    position: relative;
+    left: 7px;
+    bottom: 5px;
+}
+
 
 .hero-section-texte {
     margin-top: 5rem;
@@ -164,6 +164,8 @@ color: #0b1b35;
     padding: 2px 0;
     font-family: 'arial';
     font-weight: 700;
+    margin-top: 7px;
+
 }
 
 .service-heading {
@@ -187,16 +189,18 @@ color: #0b1b35;
     display: flex;
     align-items: flex-start;
     padding: 0 55px; 
+    margin-top: 80px;
 }
 
 .service-box {
+
     background-color:white;
-    border-radius: 20px;
+    border-radius: 23px;
     padding: 30px;
-    width: 350px;
-    height: 400px;
+    width: 352px;
+    height: 508px;
     text-align: center;
-    box-shadow: 0px 4px 20px rgb(209,209,209,255);
+    box-shadow: 0 45px 45px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     margin: 0 60px 0 60px;
@@ -210,16 +214,17 @@ color: #0b1b35;
 .service-box h3 {
     font-size: 22px;
     margin-bottom: 10px;
-    font-weight: bold;
     padding-top: 30px;
 }
 
 .service-box p {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 20px;
-    line-height: 1.6;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 50px;
+    line-height: 28.5px;
     padding-top: 15px;
+  
 }
 
 .service-box .icon {
@@ -239,12 +244,15 @@ button {
     background-color: #ff6600;
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
     font-size: 14px;
-    margin-top: 10px;
+    height: 49px;
+    width: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button:hover {
@@ -335,6 +343,7 @@ button:hover {
   
     
     .service-client {
+
         font-size: 27px;
         text-align: center;
         padding: 2px 0;
@@ -359,6 +368,9 @@ button:hover {
         color:#000000;
         margin-bottom: 40px;
         line-height: 1.5;
+        text-align: start;
+        position: relative;
+        left: 365px;
     
     }
 
@@ -371,7 +383,11 @@ button:hover {
         color: #888;
         margin-bottom: 20px;
         text-transform: uppercase;
-        font-family: 'Arial',
+        font-family: 'Arial',;
+        text-align: start;
+        position: relative;
+        left: 365px;
+    
     }
 
     .kayley-texte {
@@ -380,6 +396,11 @@ button:hover {
         color:#000000;
         margin-bottom: 40px;
         line-height: 1.5;
+        text-align: start;
+        position: relative;
+        left: 190px;
+    
+        
     
 
     }
@@ -391,7 +412,12 @@ button:hover {
         color: #888;
         margin-bottom: 20px;
         text-transform: uppercase;
-        font-family: 'Arial',
+        font-family: 'Arial',;
+        text-align: start;
+        position: relative;
+        left: 190px;
+    
+        
     }
 
     .gene-texte {
@@ -400,6 +426,10 @@ button:hover {
         color:#000000;
         margin-bottom: 40px;
         line-height: 1.5;
+        text-align: start;
+        position: relative;
+        left: 365px;
+    
     }
 
     .gene-name {
@@ -409,7 +439,12 @@ button:hover {
         color: #888;
         margin-bottom: 20px;
         text-transform: uppercase;
-        font-family: 'Arial',
+        font-family: 'Arial',;
+        text-align: start;
+        position: relative;
+        left: 365px;
+        margin-top: 66px;
+        
     }
 
     .allan-texte {
@@ -418,7 +453,11 @@ button:hover {
         color:#000000;
         margin-bottom: 40px;
         line-height: 1.5;
-    }
+        text-align: start;
+        position: relative;
+        left: 190px;
+    
+        }
 
     .allan-name {
         font-size: 10px;
@@ -427,14 +466,19 @@ button:hover {
         color: #888;
         margin-bottom: px;
         text-transform: uppercase;
-        font-family: 'Arial',
+        font-family: 'Arial',;
+        text-align: start;
+        position: relative;
+        left: 190px;
+    
     }
 
     .personnel {
-        gap: -500px;
+         gap: -500px;
          display: grid;
          grid-template-columns: 1fr 1fr;
          padding: 50px;
+        
          
     }
 
@@ -465,14 +509,7 @@ button:hover {
         top: 80px;
     }
 
-    .go{
-        font-size: 18px;
-        font-weight: 200;
-        position: relative;
-        right: 125px;
-        bottom: 40px;
 
-    }
 
     .service-client {
         padding: 25px;
@@ -591,8 +628,8 @@ button:hover {
     .social-icons {
         display: flex;
         justify-content: center;
-        gap: 100px;
-        margin-top: 15px;
+        gap: 50px;
+        margin-top: 10px;
         padding-top: 80px;
 
     }
@@ -601,7 +638,18 @@ button:hover {
         width: 20px;
         height: 20px;
     }
-
+ 
+    .custom-hr1 {
+        width: 167%;           
+        height: 0px;          
+        background-color: #868282; 
+        position: relative;
+        right: 80px;
+        top: 60px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
 
 
 .subscribe {
@@ -636,23 +684,37 @@ button:hover {
     padding: 80px;
 }
 
-  .section-letter {
-    
-  }
-
-  .button-lettre {
+.button-lettre {
     margin-top: 60px;
     width: 700px;
     height: 50px;
     background-color: #ff6600;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 500px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
   }
+
+  .button5 {
+    height: 49px;
+    width: 212px;
+    background-color: #ff6600;
+    color: white;
+    align-items: center;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+ 
+  }
+
 
 
   .email-tape input[type="email"] {
@@ -690,7 +752,7 @@ footer {
 
 
 .start {
-    font-size: 18px;
+    font-size: 20px;
     color: rgba(161,161,176,255);
     margin-bottom: 40px;
     line-height: 1.5;
@@ -702,6 +764,7 @@ footer {
 
 .divider {
     margin-top: 25px;
+
 }
 
 .hard {
@@ -735,13 +798,15 @@ footer {
 }
 
 .txt2020txt {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 400px;
     color: #1E0E62;
     position: relative;
     top: 32px;
     right: 300px;
-}
-
+    font-family:'Trebuchet MS',
+     'Lucida Sans Unicode', 'Lucida Grande', 
+     'Lucida Sans', Arial, sans-serif;
+     font
 
 
