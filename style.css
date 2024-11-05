@@ -558,6 +558,7 @@ button:hover {
         padding: 80px;
         width: 400px;
         text-align: center;
+     
     }
   
     .vanessa-name  {
@@ -600,7 +601,7 @@ button:hover {
 
 
 .irea-name {
-        padding-top: 40px;
+        padding-top: 50px;
         font-weight: 400;
         font-size: 30px;
         color:#000000;
@@ -628,9 +629,10 @@ button:hover {
     .social-icons {
         display: flex;
         justify-content: center;
-        gap: 50px;
+        gap: 45px;
         margin-top: 10px;
         padding-top: 80px;
+        margin-bottom:-110px ;
 
     }
 
@@ -649,7 +651,21 @@ button:hover {
         background-color: #fff;
         border: 1px solid #ddd;
         border-radius: 10px;
+
     }
+
+    .custom-hr2 {
+        
+        height: 70px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        position: relative;
+        bottom: 30px;
+    
+    }
+
+
 
 
 .subscribe {
@@ -808,5 +824,5 @@ footer {
      'Lucida Sans Unicode', 'Lucida Grande', 
      'Lucida Sans', Arial, sans-serif;
      font
-
-
+}
+ 
